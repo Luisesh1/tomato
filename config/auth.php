@@ -67,7 +67,7 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => Tomato\User::class,
+            'model' => Tomato\Models\User::class,
         ],
 
         // 'users' => [
